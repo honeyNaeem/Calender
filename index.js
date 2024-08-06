@@ -2,6 +2,7 @@ var date = document.getElementById("date")
 var day = document.getElementById("day")
 var month = document.getElementById("month")
 var year = document.getElementById("year")
+var birthday = document.getElementById("birthday")
 
 let today = new Date();
 
@@ -11,9 +12,14 @@ const weekDays = ["Sunday", "Monday", "Tuesday",
 const allMonths = ["January", "February", "March", "April", "May", "June",
     "July", "Auguest", "September", "October", "Nevember", "December"];
 
+
+
 date.innerHTML = (today.getDate()<10?"0":"") + today.getDate();
 day.innerHTML = weekDays[today.getDay()];
 month.innerHTML = allMonths[today.getMonth()];
 year.innerHTML = today.getFullYear();
 
 
+if(allMonths == "Auguest" , today.getDate() == 6 ){
+   birthday.innerHTML = "Happy Birthday✨ Honey🎁"
+}

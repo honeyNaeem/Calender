@@ -91,3 +91,10 @@ body{
     font-size: 100px;
     line-height: 90px;
 }
+#birthday{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    /* border: 2px solid black; */
+    box-shadow: 1px 1px 6px 2px black;
+}

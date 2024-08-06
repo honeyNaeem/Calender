@@ -20,6 +20,6 @@ month.innerHTML = allMonths[today.getMonth()];
 year.innerHTML = today.getFullYear();
 
 
-if(allMonths == "Auguest" , today.getDate() == 6 ){
+if(allMonths == "Auguest" , today.getDate() == 4 ){
    birthday.innerHTML = "Happy Birthday✨ Honey🎁"
 }
